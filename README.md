@@ -1,12 +1,14 @@
-# Livability-test-analysis-by-country
+Livability-test-analysis-by-country
+Country Livability Analysis Project 🌍
 
-Country Livability Analysis Project
 This project provides a comprehensive analysis of worldwide country data focusing on various metrics that contribute to a country's livability. The goal is to create a quantified livability score and sector scores using multiple socioeconomic and environmental indicators.
 
-Project Overview
+Project Overview ✨
+
 The analysis combines data on population, economic indicators, infrastructure, environmental quality, social development, health, and governance to assess and rank countries based on livability metrics. The project uses SQL for data processing and normalization and includes a detailed scoring methodology.
 
-Data Description
+Data Description 📊
+
 countries_complete.csv: Contains raw country-level data including demographic, economic, environmental, health, literacy, unemployment, political, and social metrics.
 
 country_status.csv: Processed scores for each country categorized into economics, quality of life, infrastructure, environment safety, social development, and governance freedom.
@@ -15,7 +17,8 @@ livability-score.csv: Final livability scores assigned to countries, ranking the
 
 country-analysis.sql: SQL script that creates the necessary database, imports data, normalizes values, calculates sector scores based on weighted metrics, and generates a final livability score and rankings.
 
-Methodology
+Methodology ⚙️
+
 Economic Prosperity is assessed via GDP per capita and unemployment rate.
 
 Quality of Life considers life expectancy and healthcare quality.
@@ -30,10 +33,11 @@ Governance Freedom scores political rights and civil liberties.
 
 Each sector score is calculated by normalizing raw values against maximum observed values and applying specific weights. The final livability score is a weighted sum of these sector scores.
 
-Visual Analysis
-Power BI was used to create interactive and insightful visualizations of the data and livability scores. These visualizations help to explore trends, compare countries across different dimensions, and communicate findings effectively. The Power BI reports include dashboards for overall livability, sector-specific scores, and detailed country profiles.
+Visual Analysis 📈
+Power BI was used to create interactive and insightful visualizations of the data and livability scores. These visualizations help to explore trends, compare countries across different dimensions, and communicate findings effectively. The Power BI reports include dashboards for overall livability, sector-specific scores, and detailed country profiles, providing a comprehensive visual analysis platform.
 
-Usage
+Usage 🚀
+
 Set up a SQL database and run the included country-analysis.sql script to create tables and views.
 
 Import the CSV data files into the database.
@@ -44,12 +48,11 @@ Use Power BI to import the processed data for advanced visual exploration and re
 
 Use the resulting scores for visualization, reporting, or further analysis of country livability.
 
-Project Insights
-Country rankings provide a multi-dimensional view of livability and highlight strengths and weaknesses in governance, economy, environment, and social sectors.
+Project Insights 🔍
+Country rankings provide a multi-dimensional view of livability and highlight strengths and weaknesses in governance, economy, environment, and social sectors. This analysis can serve as a basis for policy analysis, academic research, and comparative studies among countries.
 
-Can serve as a basis for policy analysis, academic research, and comparative studies among countries.
+Tools 🛠️
 
-Tools
 SQL for database management and data analysis
 
 CSV for data storage and sharing
