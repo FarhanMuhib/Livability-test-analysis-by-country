@@ -1,5 +1,4 @@
-Livability-test-analysis-by-country
-Country Livability Analysis Project 🌍
+Livability-test-analysis-by-country🌍
 
 This project provides a comprehensive analysis of worldwide country data focusing on various metrics that contribute to a country's livability. The goal is to create a quantified livability score and sector scores using multiple socioeconomic and environmental indicators.
 
